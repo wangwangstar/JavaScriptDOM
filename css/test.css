@@ -1,0 +1,47 @@
+/*body标签里的样式*/
+body{
+    /*字体设置*/
+    font-family: "Helvetica","Arial",serif;
+    color: #333;
+    background-color: #ccc;
+    /*外边距设置*/
+    margin: 1em 10%;
+}
+/*标题标签H1里的样式*/
+h1{
+    color: #333;
+    background-color: transparent;
+}
+/*标签A里的样式*/
+a{
+    color: #c60;
+    background-color: transparent;
+    /*字体宽度*/
+    font-weight: bold;
+    /*文本的修饰*/
+    text-decoration: none;
+}
+/*无序标签ＵＬ中的样式*/
+ul{
+    /*内边距*/
+    padding: 0;
+}
+/*标签ＬＩ中的样式*/
+li{
+    /*显示的位置*/
+    float: left;
+    /*内边距*/
+    padding: 1em;
+    /*列表的样式*/
+    list-style: none;
+}
+/*图片标签ＩＭＧ中的样式*/
+#imagegallery{
+    list-style: none;
+}
+#imagegallery li{
+    display: inline;
+}
+#imagegallery li a img{
+    border: 0;
+}
